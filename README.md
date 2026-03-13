@@ -69,31 +69,6 @@ The project follows this pipeline:
 5. The image is pushed to AWS ECR
 6. AWS ECS runs the latest containerized version of the application
 
----
-
-## Project Architecture
-
-```text
-User
-  |
-  v
-Streamlit Frontend
-  |
-  v
-Multi-AI Agent Logic
-  |
-  +--> Groq API (LLM response generation)
-  |
-  +--> Tavily API (web search)
-  |
-  v
-Jenkins CI/CD Pipeline
-  |
-  +--> SonarQube Quality Analysis
-  +--> Docker Image Build
-  +--> AWS ECR Image Push
-  +--> AWS ECS Deployment
-
 # 1. Jenkins Pipeline Success
 
 This screenshot shows the Jenkins pipeline for the MULTI AI AGENT project.
@@ -212,4 +187,31 @@ Deploying applications on AWS ECS
 Managing container images with AWS ECR
 
 Configuring cloud networking and security access
+
+
+
+---
+
+## Project Architecture
+
+```text
+User
+  |
+  v
+Streamlit Frontend
+  |
+  v
+Multi-AI Agent Logic
+  |
+  +--> Groq API (LLM response generation)
+  |
+  +--> Tavily API (web search)
+  |
+  v
+Jenkins CI/CD Pipeline
+  |
+  +--> SonarQube Quality Analysis
+  +--> Docker Image Build
+  +--> AWS ECR Image Push
+  +--> AWS ECS Deployment
 
