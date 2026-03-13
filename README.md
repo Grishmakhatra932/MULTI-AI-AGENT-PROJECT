@@ -93,3 +93,17 @@ Jenkins CI/CD Pipeline
   +--> Docker Image Build
   +--> AWS ECR Image Push
   +--> AWS ECS Deployment
+
+1. Jenkins Pipeline Success
+
+This screenshot shows the Jenkins pipeline for the MULTI AI AGENT project.
+The pipeline successfully passed the SonarQube Quality Gate, confirming that the project completed the automated quality check stage successfully.
+
+Jenkins was used to automate the CI/CD workflow
+
+The pipeline integrates code checkout, quality analysis, build, and deployment stages
+
+This validates that the project was configured correctly inside Jenkins
+
+<img width="1901" height="878" alt="Jenkins" src="https://github.com/user-attachments/assets/15eeb05c-fd1c-4d5d-902a-4aec41a78c1a" />
+
