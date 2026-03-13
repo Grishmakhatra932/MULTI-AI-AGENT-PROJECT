@@ -163,7 +163,7 @@ Choose an LLM model such as llama-3.3-70b-versatile
 
 Ask a question like: Suggest me some good stocks right now
 
-Demo Video :- ![DemoVideo](screenshots/MULTI-AI-AGENT-DEMO.mp4)
+Demo Video :- ![DemoVideo](screenshots/Demovideo.mp4)
 
 
 Key Learning Outcomes
