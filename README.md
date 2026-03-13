@@ -93,7 +93,7 @@ It was used for static code analysis
 
 The screenshot shows the project overview, issue summary, and code quality status
 
-![Sonarqube](screenshots/Sonarqube.png)
+![SonarqubeOverview](screenshots/Sonarqube.png)
 
 
 3. AWS Security Group Configuration
@@ -108,7 +108,7 @@ Important ports opened:
 
 This step was required so the deployed application could be accessed externally through the public IP.
 
-![EC2](screenshots/EC2.png)
+![EC2Overview](screenshots/EC2.png)
 
 
 4. AWS ECS Cluster and Running Service
@@ -123,7 +123,7 @@ One task is running successfully
 
 This confirms that the containerized application was deployed and managed using AWS ECS.
 
-![ECS Cluster](screenshots/ECS Cluster.png)
+![ECSClusterOverview](screenshots/ECSCluster.png)
 
 
 5. AWS ECR Repository and Docker Images
@@ -163,7 +163,7 @@ Choose an LLM model such as llama-3.3-70b-versatile
 
 Ask a question like: Suggest me some good stocks right now
 
-Demo Video :- ![Demo Video](screenshots/MULTI-AI-AGENT-DEMO.mp4)
+Demo Video :- ![DemoVideo](screenshots/MULTI-AI-AGENT-DEMO.mp4)
 
 
 Key Learning Outcomes
